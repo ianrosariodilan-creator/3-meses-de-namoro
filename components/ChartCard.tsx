@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { messageVolumeData, topWordsData } from '../constants';
+import { messageVolumeData, topWordsData } from '../constants.ts';
 import { motion } from 'framer-motion';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 

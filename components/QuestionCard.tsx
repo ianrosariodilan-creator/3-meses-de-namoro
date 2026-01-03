@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
-import type { QuizQuestion } from '../types';
+import type { QuizQuestion } from '../types.ts';
 import { motion, AnimatePresence } from 'framer-motion';
-import { BatIcon } from './BatIcon';
-import { HeartIcon } from './HeartIcon';
+import { BatIcon } from './BatIcon.tsx';
+import { HeartIcon } from './HeartIcon.tsx';
 
 interface QuestionCardProps {
   questionData: QuizQuestion;

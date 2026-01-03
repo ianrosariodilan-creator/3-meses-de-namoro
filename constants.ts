@@ -1,5 +1,5 @@
 
-import type { QuizPhase, QuizQuestion, VideoData } from './types';
+import type { QuizPhase, QuizQuestion, VideoData } from './types.ts';
 
 export const quizData: QuizPhase[] = [
   {

@@ -1,11 +1,11 @@
 
 import React, { useState, useMemo } from 'react';
-import { quizData, finalQuestionData, finalVideoData } from './constants';
-import QuestionCard from './components/QuestionCard';
-import ChartCard from './components/ChartCard';
-import VideoCard from './components/VideoCard';
-import { BatIcon } from './components/BatIcon';
-import { HeartIcon } from './components/HeartIcon';
+import { quizData, finalQuestionData, finalVideoData } from './constants.ts';
+import QuestionCard from './components/QuestionCard.tsx';
+import ChartCard from './components/ChartCard.tsx';
+import VideoCard from './components/VideoCard.tsx';
+import { BatIcon } from './components/BatIcon.tsx';
+import { HeartIcon } from './components/HeartIcon.tsx';
 
 type AppState = 'welcome' | 'quiz' | 'charts' | 'final-question' | 'video';
 

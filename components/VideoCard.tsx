@@ -1,8 +1,8 @@
 
 import React from 'react';
-import type { VideoData } from '../types';
+import type { VideoData } from '../types.ts';
 import { motion } from 'framer-motion';
-import { HeartIcon } from './HeartIcon';
+import { HeartIcon } from './HeartIcon.tsx';
 
 interface VideoCardProps {
     videoData: VideoData;
